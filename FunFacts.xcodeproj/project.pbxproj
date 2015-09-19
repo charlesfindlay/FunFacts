@@ -13,6 +13,7 @@
 		3FDA82411BADC35900DC5676 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDA82401BADC35900DC5676 /* Images.xcassets */; };
 		3FDA82441BADC35900DC5676 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FDA82421BADC35900DC5676 /* LaunchScreen.xib */; };
 		3FDA82501BADC35900DC5676 /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA824F1BADC35900DC5676 /* FunFactsTests.swift */; };
+		3FDA825A1BAE1DAC00DC5676 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA82591BAE1DAC00DC5676 /* FactBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3FDA82491BADC35900DC5676 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDA824E1BADC35900DC5676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FDA824F1BADC35900DC5676 /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
+		3FDA82591BAE1DAC00DC5676 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				3FDA82391BADC35900DC5676 /* AppDelegate.swift */,
+				3FDA82591BAE1DAC00DC5676 /* FactBook.swift */,
 				3FDA823B1BADC35900DC5676 /* ViewController.swift */,
 				3FDA823D1BADC35900DC5676 /* Main.storyboard */,
 				3FDA82401BADC35900DC5676 /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDA825A1BAE1DAC00DC5676 /* FactBook.swift in Sources */,
 				3FDA823C1BADC35900DC5676 /* ViewController.swift in Sources */,
 				3FDA823A1BADC35900DC5676 /* AppDelegate.swift in Sources */,
 			);
