@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showFunFact(sender: AnyObject) {
-        funFactLabel.text = factBook.factsArray[1]
+        funFactLabel.text = factBook.randomFact()
     }
 
 }
